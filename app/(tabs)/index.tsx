@@ -1,9 +1,11 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 export default function HomeScreen() {
   return (
     <>
-      <Text className="text-red-500">Teste</Text>
+      <View className="bg-gray-600">
+        <Text className="text-green-500">Teste 2</Text>
+      </View>
     </>
   );
 }
